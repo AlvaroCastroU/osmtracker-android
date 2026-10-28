@@ -22,6 +22,8 @@ import android.util.Log;
  * @author Nicolas Guillaumin
  * 
  */
+
+//agregar relacion 1:N waypoint -> atributos(id, waypoint_id, key, value) y un estado de la ficha (abierta/cerrada)
 public class TrackContentProvider extends ContentProvider {
 
 	private static final String TAG = TrackContentProvider.class.getSimpleName();
