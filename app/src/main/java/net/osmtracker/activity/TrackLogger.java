@@ -67,6 +67,10 @@ import java.util.UUID;
  * @author Nicolas Guillaumin
  * 
  */
+
+//si el boton tocada es compuesto abrir una ficha:
+//crear un waypoint, marcarlo como ficha abierta , mostrar el banner naranja y bloquear los demas botones compuestos
+//si hay una ficha abierta , agregar dato al waypoint activo en lugar de crear uno nuevo. Ver docs/propuesta-fichas/
 public class TrackLogger extends Activity {
 
 	private static final String TAG = TrackLogger.class.getSimpleName();
